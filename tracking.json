@@ -1,0 +1,7 @@
+{
+  "_description": "Analytics and tracking configuration for this project",
+  "google_analytics": null,
+  "plausible": null,
+  "facebook_pixel": null,
+  "google_tag_manager": null
+}
