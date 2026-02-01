@@ -9,8 +9,10 @@ RUN npm ci
 # Copy source
 COPY . .
 
-# Generate Prisma client and build
+# Generate Prisma client
 RUN npx prisma generate
+
+# Build the application
 RUN npm run build
 
 EXPOSE 3000
