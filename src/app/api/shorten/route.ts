@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/db'
-import { generateShortCode, isValidUrl, isValidShortCode } from '@/lib/utils'
+import { prisma } from '../../../lib/db'
+import { generateShortCode, isValidUrl, isValidShortCode } from '../../../lib/utils'
 import QRCode from 'qrcode'
 
 export async function POST(request: NextRequest) {
