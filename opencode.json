@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "memory": { "enabled": false },
+    "filesystem": { "enabled": false },
+    "sequential-thinking": { "enabled": false },
+    "context7": { "enabled": false },
+    "github": { "enabled": false },
+    "sqlite": { "enabled": false },
+    "puppeteer": { "enabled": false }
+  }
+}
